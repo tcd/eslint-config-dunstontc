@@ -10,8 +10,26 @@ const base = async () => {
     await writeFile("base.js", content)
 }
 
+const typescript = async () => {
+    const content = {
+        plugins: [
+            "@typescript-eslint",
+            "import",
+            "lodash",
+        ],
+        rules: {
+            ...rules.generalRules,
+            ...rules.typescript,
+            ...rules.lodash,
+            ...rules.jsdoc,
+            ...rules.eslintImport,
+        },
+    }
+    await writeFile("index.js", content)
+}
+
 const main = async () => {
-    await base()
+    await typescript()
 }
 
 (async () => {

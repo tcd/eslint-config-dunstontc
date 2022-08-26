@@ -8,16 +8,17 @@
         "type": "git",
         "url": "https://github.com/tcd/eslint-config-dunstontc.git"
     },
-    "main": "dist/base.js",
+    "main": "dist/index.js",
     "files": [
-        "dist/base.js"
+        "dist/index.js"
     ],
     "scripts": {
-        "start": "ts-node ./src/main.ts"
+        "start": "ts-node --transpile-only ./src/main.ts"
     },
     "peerDependencies": {
         "@typescript-eslint/parser": "*",
         "eslint": "*",
+        "eslint-plugin-import": "*",
         "eslint-plugin-jsdoc": "*",
         "eslint-plugin-lodash": "*",
         "typescript": "*"
