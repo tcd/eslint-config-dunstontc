@@ -1,19 +1,26 @@
 {
     "name": "eslint-config-dunstontc",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "author": "Clay Dunston <dunstontc@gmail.com>",
     "license": "MIT",
-    "homepage": "https://github.com/tcd/coolkit.js",
+    "homepage": "https://github.com/tcd/eslint-config-dunstontc.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tcd/coolkit.js.git"
+        "url": "https://github.com/tcd/eslint-config-dunstontc.git"
     },
+    "main": "dist/base.js",
+    "files": [
+        "dist/base.js"
+    ],
     "scripts": {
-        "start": "ts-node ./src/index.ts"
+        "start": "ts-node ./src/main.ts"
     },
     "peerDependencies": {
+        "@typescript-eslint/parser": "*",
         "eslint": "*",
-        "eslint-plugin-jsdoc": "*"
+        "eslint-plugin-jsdoc": "*",
+        "eslint-plugin-lodash": "*",
+        "typescript": "*"
     },
     "devDependencies": {
         "@types/eslint": "^8.4.6",

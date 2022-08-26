@@ -1,4 +1,4 @@
-declare module "_@typescript/eslint" {
+declare module "typescript/eslint" {
     export type RawRuleName =
         | "adjacent-overload-signatures"
         | "array-type"
