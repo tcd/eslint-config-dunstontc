@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "es2015",
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "removeComments": true,
+        "sourceMap": false,
+        // "lib": ["dom", "dom.iterable", "esnext"],
+        // "baseUrl": "./",
+        // "paths": {
+        //     "@src/*": ["./src/*"],
+        // },
+        "declaration": true,
+        "outDir": "dist",
+    },
+    "include": [
+        "src/**/*",
+    ],
+    "exclude": [
+        "test/**/*",
+        "dist/**/*",
+    ]
+}
