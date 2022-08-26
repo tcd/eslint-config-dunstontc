@@ -9,7 +9,7 @@ export const generalRules: Partial<ESLintRules> = {
     "object-curly-spacing":     ["warn", "always"],
     "keyword-spacing":          ["warn", { "after": true }],
     "space-before-blocks":      ["warn"],
-    "linebreak-style":          ["error", "unix"], // https://eslint.org/docs/rules/linebreak-style
+    // "linebreak-style":          ["error", "unix"], // https://eslint.org/docs/rules/linebreak-style
     "no-mixed-spaces-and-tabs": ["error"], // https://eslint.org/docs/rules/no-mixed-spaces-and-tabs
     "no-trailing-spaces":       ["warn"], // https://eslint.org/docs/rules/no-trailing-spaces
     "func-call-spacing":        ["warn", "never"], // https://eslint.org/docs/rules/func-call-spacing
@@ -27,3 +27,4 @@ export const generalRules: Partial<ESLintRules> = {
     "dot-location":                ["error", "object"], // https://eslint.org/docs/rules/dot-location
     "rest-spread-spacing":         ["error", "never"], // https://eslint.org/docs/rules/rest-spread-spacing
 }
+

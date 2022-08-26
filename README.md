@@ -8,7 +8,7 @@ Feel free to use it if you'd like.
 
 ## Plugins
 
-- [gajus/eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
-- [wix/eslint-plugin-lodash](https://github.com/wix/eslint-plugin-lodash)
-- [import-js/eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)
-- [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
+- [eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
+- [eslint-plugin-lodash](https://github.com/wix/eslint-plugin-lodash)
+- [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)
+- [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)

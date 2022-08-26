@@ -1,26 +1,25 @@
 {
     "compilerOptions": {
-        "module": "ESNext",
-        "target": "es2015",
-        "moduleResolution": "node",
-        "importHelpers": true,
-        "esModuleInterop": true,
-        "downlevelIteration": true,
-        "removeComments": true,
-        "sourceMap": false,
-        // "lib": ["dom", "dom.iterable", "esnext"],
-        // "baseUrl": "./",
-        // "paths": {
-        //     "@src/*": ["./src/*"],
-        // },
-        "declaration": true,
-        "outDir": "dist",
+        "module": "CommonJS",
+        "target": "ES6",
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": false,
+        "strict": false,
+        "strictPropertyInitialization": false,
+        "isolatedModules": false,
+        "experimentalDecorators": true,
+        "types": [
+            "node",
+        ],
+        "typeRoots": [
+            "./node_modules/@types",
+            "/src/@types",
+        ],
     },
     "include": [
         "src/**/*",
     ],
     "exclude": [
-        "test/**/*",
         "dist/**/*",
     ]
 }
